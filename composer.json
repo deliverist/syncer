@@ -10,7 +10,8 @@
 		}
 	],
 	"require": {
-		"php": ">=5.6.0"
+		"php": ">=7.2.0",
+		"dg/ftp-deployment": "^3.2"
 	},
 	"autoload": {
 		"classmap": ["src/"]

@@ -17,7 +17,7 @@
 		}
 
 
-		public function log($s, $color = NULL, $shorten = TRUE)
+		public function log(string $s, string $color = null, int $shorten = 1): void
 		{
 			$level = ILogger::INFO;
 
